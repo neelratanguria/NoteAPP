@@ -24,16 +24,14 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_width="100px"
-        android:layout_height="100px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_add"
         android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginLeft="@dimen/fab_margin"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:layout_marginStart="@dimen/fab_margin"
-        android:layout_marginTop="@dimen/fab_margin"
-        app:srcCompat="@drawable/ic_add" />
+        android:layout_marginRight="@dimen/fab_margin"/>
 
 </RelativeLayout>
